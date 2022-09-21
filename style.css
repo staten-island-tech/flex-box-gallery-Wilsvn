@@ -6,3 +6,13 @@ body,
   box-sizing: border-box;
   font-size: 62.5%;
 }
+
+.parent {
+  font-size: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  border: 1rem solid black;
+}
+#Row-1;
