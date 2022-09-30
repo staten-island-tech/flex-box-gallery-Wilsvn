@@ -22,12 +22,15 @@ h1 {
 .parent {
   display: flex;
   flex-flow: row wrap;
-  align-items: center;
   justify-content: space-around;
+  width: 100vw;
+  box-shadow: 10px 10px;
 }
 .card {
-  padding: 50px;
-  margin: 2px;
-  flex: 0 1 33%;
-  width: 10vw;
+  padding: 30px;
+  width: 15vw;
+}
+#Speed {
+  width: 15vw;
+  box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
 }
