@@ -32,16 +32,23 @@ h1 {
   margin: 30px;
   width: 15vw;
   transition: all 0.3s;
-}
-.card:hover{
-  transform: scale(1.2);
   box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
 
 }
-#A2:hover{
-  Buzz
-}
+#A1:hover{
+  transform: scale(1.2);
 
+
+}
+#A2:hover{
+  transform: rotate(0.5turn);
+}
+#A3:hover{
+  transform: scale(2, 0.5);
+}
+#A4:hover{
+  transform: skew(30deg, 20deg);
+}
 #Title:hover{
   background: black;
   color: white;
