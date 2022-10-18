@@ -76,3 +76,20 @@ h1 {
   width: 15vw;
   
 }
+
+@media (max-width:1170px) {
+  .parent {
+    flex-flow: column;
+    justify-content: space-around;
+    margin-left: 20vw;
+  }
+  #speed {
+    width: 40vw;
+  }
+  h1 {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    
+  }
+}
